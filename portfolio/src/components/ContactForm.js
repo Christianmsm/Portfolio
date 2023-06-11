@@ -1,5 +1,5 @@
 import { useState } from "react";
-
+import '../styles/ContactForm.css';
 
 function ContactForm() {
     const [name, setName] = useState('');
@@ -31,7 +31,7 @@ const handleFormSubmit = (e) => {
 
     return (
         <div>
-            <form className="form">
+            <form className="w-80 form">
                 <input
                 value={name}
                 name="name"
