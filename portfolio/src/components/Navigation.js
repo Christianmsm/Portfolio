@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom'
+
 
 function Navigation() {
     const aboutMe = 'About Me'
@@ -7,12 +7,14 @@ function Navigation() {
     const contactMe = 'Contact Me'
     const resume = 'Resume'
     return (
-        <>
-        {aboutMe}
-        {portfolio}
-        {contactMe}
-        {resume}
-        </>
+        <nav className='main-nav'>
+            <ul>
+            <li>{aboutMe}</li>
+            <li>{portfolio}</li>
+            <li>{contactMe}</li>
+            <li>{resume}</li>
+        </ul>
+        </nav>
     );
 };
 

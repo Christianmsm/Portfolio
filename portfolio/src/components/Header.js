@@ -8,10 +8,10 @@ function Header() {
     const headingName = 'Christian Smith'
 
     return (
-        <>
+        <div>
         <h1>{headingName}</h1>
-        <Navigation/>
-        </>
+        <Navigation />
+        </div>
     )
 };
 
