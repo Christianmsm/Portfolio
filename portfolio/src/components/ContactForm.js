@@ -6,9 +6,29 @@ function ContactForm() {
     const [email, setEmail] = useState('');
     const [message, setMessage] = useState('');
 
+const handleInputChange = (e) => {
+    const { target } = e;
+    const inputType = target.name;
+    const inputValue = target.value;
 
+    if (inputType === 'name') {
+        setName(inputValue);
+    } else if (inputType === 'email') {
+        setEmail(inputValue);
+    } else {
+        setMessage(inputValue);
+    }
+}
 //create logic for the handleInputChange function
-//create the logic for the formSubmit function
+
+const handleFormSubmit = (e) => {
+    e.preventDefault();
+//Add validation functionality
+    setName('');
+    setEmail('');
+    setMessage('');
+};
+
     return (
         <div>
             <form className="form">
