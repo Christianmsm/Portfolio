@@ -10,7 +10,6 @@ function Header() {
     return (
         <div>
         <h1>{headingName}</h1>
-        <Navigation />
         </div>
     )
 };

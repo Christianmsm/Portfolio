@@ -7,8 +7,8 @@ function Navigation() {
     const contactMe = 'Contact Me'
     const resume = 'Resume'
     return (
-        <nav className='main-nav'>
-            <ul>
+        <nav>
+            <ul className='flex flex-row justify-center space-x-40'>
             <li>{aboutMe}</li>
             <li>{portfolio}</li>
             <li>{contactMe}</li>
