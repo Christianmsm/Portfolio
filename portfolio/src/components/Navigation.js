@@ -1,20 +1,57 @@
 import React, { useState } from 'react';
 
 
-function Navigation() {
-    const aboutMe = 'About Me'
-    const portfolio = 'Portfolio'
-    const contactMe = 'Contact Me'
-    const resume = 'Resume'
+function Navigation({ currentPage, handlePageChange }) {
     return (
-        <nav>
-            <ul className='flex flex-row justify-center space-x-40'>
-            <li>{aboutMe}</li>
-            <li>{portfolio}</li>
-            <li>{contactMe}</li>
-            <li>{resume}</li>
+        <ul className='nav nav-tabs'>
+            <li className='nav-items'>
+                <a
+                href='#home'
+                onClick={() => handlePageChange('Home')}
+                className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
+                >
+                Home
+                </a>
+            </li> 
+            {/* Need to update this link */}
+            <li className='nav-items'>
+                <a
+                href='#home'
+                onClick={() => handlePageChange('Home')}
+                className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
+                >
+                Home
+                </a>
+            </li>
+            {/* Need to update this link */}
+            <li className='nav-items'>
+                <a
+                href='#home'
+                onClick={() => handlePageChange('Home')}
+                className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
+                >
+                Home
+                </a>
+            </li>
+            {/* Need to update this link */}
+            <li className='nav-items'>
+                <a
+                href='#home'
+                onClick={() => handlePageChange('Home')}
+                className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
+                >
+                Home
+                </a>
+            </li>
         </ul>
-        </nav>
+        // <nav>
+        //     <ul className='flex flex-row justify-center space-x-40'>
+        //     <li>{aboutMe}</li>
+        //     <li>{portfolio}</li>
+        //     <li>{contactMe}</li>
+        //     <li>{resume}</li>
+        // </ul>
+        // </nav>
     );
 };
 
