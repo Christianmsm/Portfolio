@@ -16,31 +16,31 @@ function Navigation({ currentPage, handlePageChange }) {
             {/* Need to update this link */}
             <li className='nav-items'>
                 <a
-                href='#home'
-                onClick={() => handlePageChange('Home')}
-                className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
+                href='#About'
+                onClick={() => handlePageChange('About')}
+                className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
                 >
-                Home
+                About
                 </a>
             </li>
             {/* Need to update this link */}
             <li className='nav-items'>
                 <a
-                href='#home'
-                onClick={() => handlePageChange('Home')}
-                className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
+                href='#Portfolio'
+                onClick={() => handlePageChange('Portfolio')}
+                className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}
                 >
-                Home
+                Portfolio
                 </a>
             </li>
             {/* Need to update this link */}
             <li className='nav-items'>
                 <a
-                href='#home'
-                onClick={() => handlePageChange('Home')}
-                className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
+                href='#Contact'
+                onClick={() => handlePageChange('Contact')}
+                className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
                 >
-                Home
+                Contact
                 </a>
             </li>
         </ul>
