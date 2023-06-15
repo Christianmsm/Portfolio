@@ -5,14 +5,16 @@ import Navigation from './components/Navigation';
 import Project from './components/Project';
 import Footer from './components/Footer';
 import ContactForm from './components/pages/ContactForm';
+import PortfolioContainer from './components/PortfolioContainer';
 function App() {
   return (
-    <div className="Portfolio">
-     <Header />
+    <div className="main-page">
+      <PortfolioContainer />
+     {/* <Header />
      <Navigation />
      <Project />
      <Footer />
-     <ContactForm />
+     <ContactForm /> */}
     </div>
   );
 }

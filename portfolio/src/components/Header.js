@@ -1,16 +1,15 @@
 import React, { useState } from 'react';
-import Footer from './Footer';
 import Navigation from './Navigation';
-import Project from './Project';
 
-function Header() {
+function Header({currentPage, handlePageChange}) {
 
     const headingName = 'Christian Smith'
 
     return (
-        <div>
+        <header>
         <h1>{headingName}</h1>
-        </div>
+        <Navigation handlePageChange={handlePageChange} />
+        </header>
     )
 };
 
