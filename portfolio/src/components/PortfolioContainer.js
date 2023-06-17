@@ -18,7 +18,6 @@ export default function PortfolioContainer() {
         if (currentPage === 'Contact') {
             return <ContactForm />
         } 
-        return <Footer />
     }
 
     const handlePageChange = (page) => setCurrentPage(page);
@@ -27,6 +26,7 @@ export default function PortfolioContainer() {
         <div>
             <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
             {renderPage()}
+            <Footer />
         </div>
     )
 }
