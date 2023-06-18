@@ -36,24 +36,24 @@ export default function ProjectContainer() {
     // ]
 
     return (
-        <div>
-            <div className="shadow-lg p-10 rounded-xl " id="PutASpork">
-            <img className="mx-auto w-11/12" src={PutASpork} alt="PutASporkInIt project" />
+        <div className="flex flex-col gap-10 lg:flex-row lg:flex-wrap">
+            <div className="shadow-lg p-10 rounded-xl basis-1/3 flex-1 " id="PutASpork">
+            <img className="mx-auto w-12/12 h-12/12 rounded-lg object-cover" layout="responsive" src={PutASpork} alt="PutASporkInIt project" />
             </div>
 
 
-            <div className="shadow-lg p-10 rounded-xl " id="RecipeMuse">
-            <img className="mx-auto w-11/12" src={RecipeMuse} alt="RecipeMuse project" />
+            <div className="shadow-lg p-10 rounded-xl basis-1/3 flex-1 " id="RecipeMuse">
+            <img className="mx-auto w-12/12 h-12/12 rounded-lg object-cover" layout="responsive" src={RecipeMuse} alt="RecipeMuse project" />
             </div>
 
 
-            <div className="shadow-lg p-10 rounded-xl " id="WeatherDash">
-            <img className="mx-auto w-11/12" src={WeatherDash} alt="WeatherDashboard project" />
+            <div className="shadow-lg p-10 rounded-xl basis-1/3 flex-1 " id="WeatherDash">
+            <img className="mx-auto w-12/12 h-12/12 rounded-lg object-cover" layout="responsive" src={WeatherDash} alt="WeatherDashboard project" />
             </div>
 
 
-            <div className="shadow-lg p-10 rounded-xl " id="TBD">
-            <img className="mx-auto w-11/12" src={PutASpork} alt="TBD project" />
+            <div className="shadow-lg p-10 rounded-xl basis-1/3 flex-1 " id="TBD">
+            <img className="mx-auto w-12/12 h-12/12 rounded-lg object-cover" layout="responsive" src={PutASpork} alt="TBD project" />
             </div>
             {/* <ProjectContainer /> */}
         </div>

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import DownloadIcon from '@mui/icons-material/Download';
@@ -7,7 +7,7 @@ function Footer() {
 
 
     return (
-        <div className='insert-x-0 top-0'>
+        <div className=''>
         <footer className='relative flex h-16 items-center justify-evenly rounded-none bg-gray-800 mt-12'>
         <a className='w-1/12 bg-gray-800 p-1 text-white hover:text-gray-400'href='https://github.com/Christianmsm'><GitHubIcon />GitHub</a>
         <a className='w-1/12 bg-gray-800 p-1 text-white hover:text-gray-400' href='https://www.linkedin.com/in/christian-smith-7a056526a/'><LinkedInIcon />LinkedIn</a>
