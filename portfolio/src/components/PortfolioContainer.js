@@ -4,6 +4,7 @@ import Navigation from "./Navigation";
 import AboutMe from "./pages/About";
 import ContactForm from "./pages/ContactForm";
 import Footer from './Footer';
+import ProjectContainer from './pages/ProjectsContainer';
 
 export default function PortfolioContainer() {
     const [currentPage, setCurrentPage] = useState('Home')
@@ -14,6 +15,9 @@ export default function PortfolioContainer() {
         }
         if (currentPage === 'About') {
             return <AboutMe />
+        }
+        if (currentPage === 'ProjectContainer') {
+            return <ProjectContainer />
         }
         if (currentPage === 'Contact') {
             return <ContactForm />
