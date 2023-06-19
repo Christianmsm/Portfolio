@@ -13,9 +13,10 @@ export default function ProjectContainer() {
             <img className="mx-auto w-12/12 h-12/12 rounded-lg object-cover" layout="responsive" src={PutASpork} alt="PutASporkInIt project" />
             <div>
             <p className=" text-lg py-5 leading-8 ml-10 mr-10 text-center">From the screen to your plate, this site brings all the recipes from your favorite tv shows & movies.</p>
-            <button className="mb-5 block w-full rounded-md bg-blue-950 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600" href="https://github.com/CodeByDex/PutASporkInIt">GitHub</button>
+
+            <a href="https://github.com/CodeByDex/PutASporkInIt"><button className="mb-5 block w-full rounded-md bg-blue-950 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">GitHub</button></a>
             
-            <button className="block w-full rounded-md bg-blue-950 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600" href="https://www.putasporkinit.co/">Deployed Site</button>
+            <a href="https://www.putasporkinit.co/"><button className="block w-full rounded-md bg-blue-950 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Deployed Site</button></a>
             </div>
             </div>
 
@@ -24,9 +25,10 @@ export default function ProjectContainer() {
             <img className="mx-auto w-12/12 h-12/12 rounded-lg object-cover" layout="responsive" src={RecipeMuse} alt="RecipeMuse project" />
             <div>
             <p className=" text-lg py-5 leading-8 ml-10 mr-10 text-center mt-12 mb-12">Struggling to figure out what to make for your next meal? Recipe muse has you covered!</p>
-            <button className="mb-5 block w-full rounded-md bg-blue-950 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600" href="https://github.com/malachigamblin/Recipe-Muse">GitHub</button>
+
+            <a href="https://github.com/malachigamblin/Recipe-Muse"><button className="mb-5 block w-full rounded-md bg-blue-950 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">GitHub</button></a>
             
-            <button className="block w-full rounded-md bg-blue-950 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600" href="https://malachigamblin.github.io/Recipe-Muse/">Deployed Site</button>
+            <a href="https://malachigamblin.github.io/Recipe-Muse/"><button className="block w-full rounded-md bg-blue-950 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Deployed Site</button></a>
             </div>
             </div>
 
@@ -35,9 +37,11 @@ export default function ProjectContainer() {
             <img className="mx-auto w-12/12 h-12/12 rounded-lg object-cover" layout="responsive" src={WeatherDash} alt="WeatherDashboard project" />
             <div>
             <p className=" text-lg py-5 leading-8 ml-10 mr-10 text-center mt-12 mb-12">Planning a trip and need to know how to pack? Here is the weather dashboard of your dreams! See the forecast in any location you are traveling too.</p>
-            <button className="mb-5 block w-full rounded-md bg-blue-950 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600" href="https://github.com/Christianmsm/06-Server-Side-API-Weather-Dashboard-Challenge">GitHub</button>
+
+            <a href="https://github.com/Christianmsm/06-Server-Side-API-Weather-Dashboard-Challenge">
+            <button className="mb-5 block w-full rounded-md bg-blue-950 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">GitHub</button></a>
             
-            <button className="block w-full rounded-md bg-blue-950 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600" href="https://christianmsm.github.io/06-Server-Side-API-Weather-Dashboard-Challenge/">Deployed Site</button>
+            <a href="https://christianmsm.github.io/06-Server-Side-API-Weather-Dashboard-Challenge/"><button className="block w-full rounded-md bg-blue-950 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Deployed Site</button></a>
             </div>
             </div>
 
