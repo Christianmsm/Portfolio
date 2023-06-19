@@ -10,7 +10,7 @@ export default function AboutMe() {
             I received my education through The Ohio State coding boot camp  with an emphasis in full stack development. Through this program I have envisioned, created, and deployed solo and group projects.
             <div className='py-5'></div>
             My passion for tech started with an interest in graphic design and I began to do freelance design work. The ability to create something out of nothing was mind blowing to me. I then worked in sales for a tech company where I was able to understand how products functions, how to help people use them, and encourage people to utilize them within their own lives. I then discovered the world of web development and coding; I was totally hooked and wanted to know more 
-            {/* Add more information here */}
+            
         </p>
         </div>
     );
