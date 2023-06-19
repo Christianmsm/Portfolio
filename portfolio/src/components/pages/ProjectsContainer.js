@@ -2,7 +2,7 @@ import React from "react";
 import PutASpork from '../../images/putasporkinit.co.png';
 import RecipeMuse from '../../images/Recipe-muse.png';
 import WeatherDash from '../../images/Weather-dashboard.png';
-import ComingSoon from '../../images/Coming-soon.png';
+import ComingSoonHero from '../../images/Coming-soon-img.png';
 
 export default function ProjectContainer() {
 
@@ -47,7 +47,7 @@ export default function ProjectContainer() {
 
 
             <div className="shadow-lg p-10 rounded-xl basis-1/3 flex-1 " id="TBD">
-            <img className="mx-auto w-12/12 h-12/12 rounded-lg object-cover" layout="responsive" src={ComingSoon} alt="TBD project" />
+            <img className="mx-auto w-12/12 h-12/12 rounded-lg object-cover" layout="responsive" src={ComingSoonHero} alt="TBD project" />
             </div>
             {/* <ProjectContainer /> */}
         </div>
