@@ -1,24 +1,25 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.251a9f2b.css",
-    "main.js": "/Portfolio/static/js/main.15a89681.js",
+    "main.css": "/Portfolio/static/css/main.4c948c72.css",
+    "main.js": "/Portfolio/static/js/main.204bdc61.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/Recipe-muse.png": "/Portfolio/static/media/Recipe-muse.1b42eb9da96774d68107.png",
     "static/media/me.png": "/Portfolio/static/media/me.1c3f71bcc1f982f887c2.png",
     "static/media/Weather-dashboard.png": "/Portfolio/static/media/Weather-dashboard.270928f1eefe44acfb4f.png",
     "static/media/putasporkinit.co.png": "/Portfolio/static/media/putasporkinit.co.978d19ca87e4200c7021.png",
     "static/media/About-page-photo.png": "/Portfolio/static/media/About-page-photo.a1395dd04a63934ac867.png",
+    "static/media/oiodev.png": "/Portfolio/static/media/oiodev.03cadbe3750c5fe8656f.png",
     "static/media/DailyPlanner.png": "/Portfolio/static/media/DailyPlanner.ab989069b54108b99c56.png",
     "static/media/Coming-soon-img.png": "/Portfolio/static/media/Coming-soon-img.d0b3a8e1d074d67bbe87.png",
     "static/media/Pwd-Generator.png": "/Portfolio/static/media/Pwd-Generator.0a77c7af39b41e0aa558.png",
     "static/media/CodingQuiz.png": "/Portfolio/static/media/CodingQuiz.44cc1fdda0a21f434e9e.png",
     "index.html": "/Portfolio/index.html",
-    "main.251a9f2b.css.map": "/Portfolio/static/css/main.251a9f2b.css.map",
-    "main.15a89681.js.map": "/Portfolio/static/js/main.15a89681.js.map",
+    "main.4c948c72.css.map": "/Portfolio/static/css/main.4c948c72.css.map",
+    "main.204bdc61.js.map": "/Portfolio/static/js/main.204bdc61.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.251a9f2b.css",
-    "static/js/main.15a89681.js"
+    "static/css/main.4c948c72.css",
+    "static/js/main.204bdc61.js"
   ]
 }
